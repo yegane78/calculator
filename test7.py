@@ -18,6 +18,7 @@ if v==1:
         resault=a*b 
 if v==2:
     x = float(input("please enter a number = "))
+    op=input("please enter operation = ")
     if op == "sin":
         resault=math.sin(math.radians(x))           
     if op== "cos":
